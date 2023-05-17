@@ -1,0 +1,128 @@
+<!doctype html>
+ <html lang="utf-8">
+<header>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Tiempo Pochoclo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@800&display=swap" rel="stylesheet">  
+</header>
+<body>
+    <header>
+        <div class="header">
+            <a href="index.html" >
+                <img  id="icono" src="purepng.com-popcornfood-popcorn-941524637163vnpkc.png">
+                <h1>Tiempo Pochoclo</h1>
+            </a>
+            <nav>
+                <a href="">Pelicula 1</a>
+                <a href="encuesta.html">Encuesta</a>
+                <a href="#mrRobot">Mr. Robot</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contenido">
+        <h1>Las mejores recomendaciones de <span>peliculas</span>  y <span>series</span> de toda la <span>unahur</span>!!</h1>
+       <section class="entrada">
+        <br>
+        <h2>Ingrese sus datos para participar en el sorteo!!</h2>
+
+        <form action="">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre">
+            <br>
+            <label for="apellido">apellido:</label>
+            <input type="text" id="apellido">
+            <br>
+            <label for="email">email:</label>
+            <input type="email" id="email">
+            <br>
+            <label for="tel">telefono</label>
+            <input type="text" id="tel">
+            <br>
+            <label for="sexo">Sexo:</label>
+            <br>
+            <label for="rb1">Masculino</label>
+            <input type="radio" name="sexo" id="rb1">
+            <label for="rb2">Femenino</label>
+            <input type="radio" name="sexo" id="rb2">
+            <label for="rb3">Mucho</label>
+            <input type="radio" name="sexo" id="rb3">
+            <br>
+            <br>
+            <label for="generos">Generos Favoritos:</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb1">
+            <label for="cb1">Accion</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb2">
+            <label for="cb2">Ciencia Ficcion</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb3">
+            <label for="cb3">Musicales</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb4">
+            <label for="cb4">Dramas</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb5">
+            <label for="cb5">Terror</label>
+            <br>
+            <input type="checkbox" name="generos" id="cb5">
+            <label for="cb5">Terror</label>
+            <br>
+            <label for="RecomendacionGustada">Cual de nuestras recomendaciones te gusto?:</label>
+            <br>
+            <input list="recomendaciones" id="RecomendacionGustada" name="RecomendacionGustada">
+            <datalist id="recomendaciones">
+                <option value="Mr Robot"></option>
+                <option value="Everything, Everywhere, all at the same time"></option>
+                <option value="Sharknado"></option>
+                <option value="Interestellar"></option>
+            </datalist>    
+            <br>
+            <label for="reseña">dejanos tu opinion:</label>
+            <br>
+            <textarea name="reseña" id="reseña" cols="33" rows="5">La peli me parecio....</textarea>            
+            <br>
+            <input type="submit">
+            
+        </form>
+       </section>
+       <aside id="proximasEntregas" class="box">
+        <h3>Proximas entregas:</h3>
+        <ol>
+            <li>
+                <details>
+                    <summary>El Gato con Botas: el ultimo deseo</summary>
+                    <p> la ultima pelicula de universal studios que da mucho de que hablar</p>
+                    <a href="https://www.youtube.com/watch?v=QaiUm8jNiCk" target="_blank"> <img class="ImgArticulo" src="el_gato_con_botas_el_ultimo_deseo-cartel-10386.jpg" alt="Click para ver el Trailer"></a>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>Mario Bros</summary>
+                    <p>La primer pelicula de mario que podes llevar a ver a tus hijos</p>
+                    <a href="https://www.youtube.com/watch?v=SvJwEiy2Wok" target="_blank"> <img class="ImgArticulo" src="mario.jpeg" alt="Click para ver el Trailer"></a>
+                </details>
+            </li>
+            <li>
+                <details>
+                    <summary>rapidos y furiosos X (10)</summary>
+                    <p>la legendaria saga trae una nueva entrega para disfrutar de torieto y la familia</p>
+                    <a href="https://www.youtube.com/watch?v=O5BOxn8Go8U" target="_blank"> <img class="ImgArticulo" src="ec5c069fb3f7c7ba1074e39f95fc5251.jpg" alt="Click para ver el Trailer"></a>
+                </details>
+            </li>
+        </ol>
+    </aside>
+    </main>
+</body>
+<footer id="footer">
+    <nav>
+		<p>© 2023 Unahur - Marcos de sousa</p>
+        <a href="tel:+1155023444">1155023444</a>
+		<a href="mailto:marcosu.desousa@gmail.com">marcosu.desousa@gmail.com</a>
+    </nav>
+</footer>
+ </html>   
